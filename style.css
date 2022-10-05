@@ -117,6 +117,33 @@ span {
     }
 
     .attribution {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 295px;
+    }
+
+    .image > img {
+        width: 250px;
+        height: auto;
+        border-radius: 7px;
+    }
+
+    .first h3 {
+        font-size: 18px;
+    }
+
+    .first p {
+        font-size: 15px;
+    }
+
+    .attribution {
+        margin-top: 20px;
+        font-size: 13px;
         text-align: center;
     }
 }
